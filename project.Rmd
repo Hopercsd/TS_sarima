@@ -346,7 +346,7 @@ result=data.frame(
   MAE=c(mod1.MAE,mod2.MAE),
   RMSPE=c(mod1.RMSPE,mod2.RMSPE),
   MAPE=c(mod1.MAPE,mod2.MAPE),
-  meanLength=c(mCI1,mCI2)
+  CILength=c(mCI1,mCI2)
   )
 
 row.names(result)=c("ARIMA(2,0,0)(1,1,0)12","ARIMA(2,0,0)(0,1,1)12")
